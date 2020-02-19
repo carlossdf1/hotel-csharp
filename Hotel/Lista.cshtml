@@ -1,0 +1,42 @@
+﻿@using Hotel.Models
+
+@{
+    Layout = "_Layout.cshtml";
+    Page.Title = "Lista hospedados actualmente";
+    var context = new HotelDbContext();
+    var ocupadas = context.Huespedes.ToList();
+}
+<div>
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Rut</th>
+            <th>Correo</th>
+            <th>N°</th>
+            <th>Categoria</th>
+            <th>Precio</th>
+        </tr>
+        @{
+            foreach (var c in ocupadas)
+            {
+            <tr>
+                <td>@c.Nombre</td>
+                <td>@c.Apellido</td>
+                <td>@c.Rut</td>
+                <td>@c.Correo</td>
+                <td>@c.HabitacionHuesped.Id</td>
+                <td>@c.HabitacionHuesped.CategoriaHabitacion.Nombre</td>
+                <td>@c.HabitacionHuesped.CategoriaHabitacion.Precio</td>
+                <td><a href="~/EditarCategoria.cshtml?id=@c.Id">Editar</a></td>
+                <td><a href="~/Delete.cshtml?id=@c.Id">Desocupar</a></td>
+
+            </tr>
+        }
+        }
+    </table>
+</div>
+<div>
+    <a href="~/Index.cshtml">Volver al inicio</a>
+</div>
+

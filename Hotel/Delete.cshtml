@@ -1,0 +1,47 @@
+﻿@using Hotel.Models
+@{
+    Layout = "_Layout.cshtml";
+    Page.Title = "Retirar";
+
+    string msj = string.Empty;
+    string strid = Request.QueryString["id"];
+    if (strid != null)
+    {
+        try
+        {
+            int id = int.Parse(strid);
+            var context = new HotelDbContext();
+            Huesped nuevo = null;
+
+            // Búsqueda de un contacto en el DBSet usando foreach
+            foreach (var c in context.Huespedes)
+            {
+                if (c.Id == id)
+                {
+                    nuevo = c;
+                }
+            }
+
+            if (nuevo != null)
+            {
+                nuevo.HabitacionHuesped.Ocupado = false;
+                context.Huespedes.Remove(nuevo);
+                context.SaveChanges();
+                msj = "huesped retirado";
+            }
+            else
+            {
+                msj = "Huesped no encontrado.";
+            }
+
+        }
+        catch (Exception e)
+        {
+            msj = e.Message;
+        }
+    }
+}
+<div>
+    <a href="~/Index.cshtml">Volver al inicio</a>
+</div>
+<p>@msj</p>

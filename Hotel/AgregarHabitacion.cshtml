@@ -1,0 +1,56 @@
+﻿@using Hotel.Models
+
+@{
+    Layout = "_Layout.cshtml";
+    Page.Title = "Nueva habitacion";
+
+    string msj = string.Empty;
+    var context = new HotelDbContext();
+
+    if (IsPost)
+    {
+        if (Request.Form["categoriaValor"] != null)
+        {
+            int idcategoria = int.Parse(Request.Form["categoriaValor"]);
+            Habitacion habitacion = new Habitacion();
+            Categoria categoria = context.Categorias.Find(idcategoria);
+            habitacion.CategoriaHabitacion = categoria;
+
+            context.Habitaciones.Add(habitacion);
+            context.SaveChanges();
+            Response.Redirect("ListaHabitaciones.cshtml");
+
+        }
+        else
+        {
+
+        }
+
+    }
+    else
+    {
+        var categorias = context.Categorias.ToList();
+
+        <form method="post">
+            <div>
+                <label>Categoria:</label>
+                <select name="categoriaValor">
+                    @foreach (var c in categorias)
+                    {
+                        <option value="@c.Id">@c.Nombre</option>
+                    }
+                </select>
+            </div>
+            <div><input type="submit" value="Guardar" /></div>
+        </form>
+    }
+}
+
+<div>
+    <a href="~/Index.cshtml">Volver al inicio</a>
+</div>
+<div>
+    <a href="~/ListaHabitaciones.cshtml">Volver a la lista de habitaciones</a>
+</div>
+
+<p>@msj</p>

@@ -1,0 +1,172 @@
+c:\users\informatica5\documents\visual studio 2013\Projects\Hotel\Hotel\obj\Debug\Hotel.csprojResolveAssemblyReference.cache
+c:\users\informatica5\documents\visual studio 2013\Projects\Hotel\Hotel\bin\Hotel.dll.config
+c:\users\informatica5\documents\visual studio 2013\Projects\Hotel\Hotel\bin\Hotel.dll
+c:\users\informatica5\documents\visual studio 2013\Projects\Hotel\Hotel\bin\Hotel.pdb
+c:\users\informatica5\documents\visual studio 2013\Projects\Hotel\Hotel\bin\EntityFramework.dll
+c:\users\informatica5\documents\visual studio 2013\Projects\Hotel\Hotel\bin\EntityFramework.SqlServer.dll
+c:\users\informatica5\documents\visual studio 2013\Projects\Hotel\Hotel\bin\Microsoft.Web.Infrastructure.dll
+c:\users\informatica5\documents\visual studio 2013\Projects\Hotel\Hotel\bin\System.Web.Helpers.dll
+c:\users\informatica5\documents\visual studio 2013\Projects\Hotel\Hotel\bin\System.Web.Razor.dll
+c:\users\informatica5\documents\visual studio 2013\Projects\Hotel\Hotel\bin\System.Web.WebPages.Deployment.dll
+c:\users\informatica5\documents\visual studio 2013\Projects\Hotel\Hotel\bin\System.Web.WebPages.dll
+c:\users\informatica5\documents\visual studio 2013\Projects\Hotel\Hotel\bin\System.Web.WebPages.Razor.dll
+c:\users\informatica5\documents\visual studio 2013\Projects\Hotel\Hotel\bin\EntityFramework.xml
+c:\users\informatica5\documents\visual studio 2013\Projects\Hotel\Hotel\bin\EntityFramework.SqlServer.xml
+c:\users\informatica5\documents\visual studio 2013\Projects\Hotel\Hotel\bin\System.Web.Helpers.xml
+c:\users\informatica5\documents\visual studio 2013\Projects\Hotel\Hotel\bin\System.Web.Razor.xml
+c:\users\informatica5\documents\visual studio 2013\Projects\Hotel\Hotel\bin\System.Web.WebPages.xml
+c:\users\informatica5\documents\visual studio 2013\Projects\Hotel\Hotel\bin\System.Web.WebPages.Deployment.xml
+c:\users\informatica5\documents\visual studio 2013\Projects\Hotel\Hotel\bin\System.Web.WebPages.Razor.xml
+c:\users\informatica5\documents\visual studio 2013\Projects\Hotel\Hotel\bin\es\System.Web.Helpers.resources.dll
+c:\users\informatica5\documents\visual studio 2013\Projects\Hotel\Hotel\bin\es\System.Web.Razor.resources.dll
+c:\users\informatica5\documents\visual studio 2013\Projects\Hotel\Hotel\bin\es\System.Web.WebPages.resources.dll
+c:\users\informatica5\documents\visual studio 2013\Projects\Hotel\Hotel\bin\es\System.Web.WebPages.Deployment.resources.dll
+c:\users\informatica5\documents\visual studio 2013\Projects\Hotel\Hotel\bin\es\System.Web.WebPages.Razor.resources.dll
+c:\users\informatica5\documents\visual studio 2013\Projects\Hotel\Hotel\obj\Debug\Hotel.dll
+c:\users\informatica5\documents\visual studio 2013\Projects\Hotel\Hotel\obj\Debug\Hotel.pdb
+c:\users\informatica5\documents\visual studio 2013\Projects\Hotel\Hotel\obj\Debug\Hotel.Migrations.hotel1.resources
+c:\users\informatica5\documents\visual studio 2013\Projects\Hotel\Hotel\obj\Debug\Hotel.csproj.GenerateResource.Cache
+C:\Users\Anastacia\Downloads\Hotel\Hotel\bin\Hotel.dll.config
+C:\Users\Anastacia\Downloads\Hotel\Hotel\bin\Hotel.dll
+C:\Users\Anastacia\Downloads\Hotel\Hotel\bin\Hotel.pdb
+C:\Users\Anastacia\Downloads\Hotel\Hotel\bin\EntityFramework.dll
+C:\Users\Anastacia\Downloads\Hotel\Hotel\bin\EntityFramework.SqlServer.dll
+C:\Users\Anastacia\Downloads\Hotel\Hotel\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Anastacia\Downloads\Hotel\Hotel\bin\System.Web.Helpers.dll
+C:\Users\Anastacia\Downloads\Hotel\Hotel\bin\System.Web.Razor.dll
+C:\Users\Anastacia\Downloads\Hotel\Hotel\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Anastacia\Downloads\Hotel\Hotel\bin\System.Web.WebPages.dll
+C:\Users\Anastacia\Downloads\Hotel\Hotel\bin\System.Web.WebPages.Razor.dll
+C:\Users\Anastacia\Downloads\Hotel\Hotel\bin\EntityFramework.xml
+C:\Users\Anastacia\Downloads\Hotel\Hotel\bin\EntityFramework.SqlServer.xml
+C:\Users\Anastacia\Downloads\Hotel\Hotel\bin\System.Web.Helpers.xml
+C:\Users\Anastacia\Downloads\Hotel\Hotel\bin\System.Web.Razor.xml
+C:\Users\Anastacia\Downloads\Hotel\Hotel\bin\System.Web.WebPages.xml
+C:\Users\Anastacia\Downloads\Hotel\Hotel\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Anastacia\Downloads\Hotel\Hotel\bin\System.Web.WebPages.Razor.xml
+C:\Users\Anastacia\Downloads\Hotel\Hotel\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Anastacia\Downloads\Hotel\Hotel\bin\es\System.Web.Razor.resources.dll
+C:\Users\Anastacia\Downloads\Hotel\Hotel\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Anastacia\Downloads\Hotel\Hotel\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Anastacia\Downloads\Hotel\Hotel\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Anastacia\Downloads\Hotel\Hotel\obj\Debug\Hotel.csprojResolveAssemblyReference.cache
+C:\Users\Anastacia\Downloads\Hotel\Hotel\obj\Debug\Hotel.Migrations.hotel1.resources
+C:\Users\Anastacia\Downloads\Hotel\Hotel\obj\Debug\Hotel.csproj.GenerateResource.Cache
+C:\Users\Anastacia\Downloads\Hotel\Hotel\obj\Debug\Hotel.dll
+C:\Users\Anastacia\Downloads\Hotel\Hotel\obj\Debug\Hotel.pdb
+C:\Users\informatica4\Downloads\HotelAvanzado\Hotel\bin\Hotel.dll.config
+C:\Users\informatica4\Downloads\HotelAvanzado\Hotel\bin\Hotel.dll
+C:\Users\informatica4\Downloads\HotelAvanzado\Hotel\bin\Hotel.pdb
+C:\Users\informatica4\Downloads\HotelAvanzado\Hotel\bin\EntityFramework.dll
+C:\Users\informatica4\Downloads\HotelAvanzado\Hotel\bin\EntityFramework.SqlServer.dll
+C:\Users\informatica4\Downloads\HotelAvanzado\Hotel\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\informatica4\Downloads\HotelAvanzado\Hotel\bin\System.Web.Helpers.dll
+C:\Users\informatica4\Downloads\HotelAvanzado\Hotel\bin\System.Web.Razor.dll
+C:\Users\informatica4\Downloads\HotelAvanzado\Hotel\bin\System.Web.WebPages.Deployment.dll
+C:\Users\informatica4\Downloads\HotelAvanzado\Hotel\bin\System.Web.WebPages.dll
+C:\Users\informatica4\Downloads\HotelAvanzado\Hotel\bin\System.Web.WebPages.Razor.dll
+C:\Users\informatica4\Downloads\HotelAvanzado\Hotel\bin\EntityFramework.xml
+C:\Users\informatica4\Downloads\HotelAvanzado\Hotel\bin\EntityFramework.SqlServer.xml
+C:\Users\informatica4\Downloads\HotelAvanzado\Hotel\bin\System.Web.Helpers.xml
+C:\Users\informatica4\Downloads\HotelAvanzado\Hotel\bin\System.Web.Razor.xml
+C:\Users\informatica4\Downloads\HotelAvanzado\Hotel\bin\System.Web.WebPages.xml
+C:\Users\informatica4\Downloads\HotelAvanzado\Hotel\bin\System.Web.WebPages.Deployment.xml
+C:\Users\informatica4\Downloads\HotelAvanzado\Hotel\bin\System.Web.WebPages.Razor.xml
+C:\Users\informatica4\Downloads\HotelAvanzado\Hotel\bin\es\System.Web.Helpers.resources.dll
+C:\Users\informatica4\Downloads\HotelAvanzado\Hotel\bin\es\System.Web.Razor.resources.dll
+C:\Users\informatica4\Downloads\HotelAvanzado\Hotel\bin\es\System.Web.WebPages.resources.dll
+C:\Users\informatica4\Downloads\HotelAvanzado\Hotel\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\informatica4\Downloads\HotelAvanzado\Hotel\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\informatica4\Downloads\HotelAvanzado\Hotel\obj\Debug\Hotel.csprojResolveAssemblyReference.cache
+C:\Users\informatica4\Downloads\HotelAvanzado\Hotel\obj\Debug\Hotel.Migrations.hotel1.resources
+C:\Users\informatica4\Downloads\HotelAvanzado\Hotel\obj\Debug\Hotel.Migrations.habitacionOcupadas.resources
+C:\Users\informatica4\Downloads\HotelAvanzado\Hotel\obj\Debug\Hotel.csproj.GenerateResource.Cache
+C:\Users\informatica4\Downloads\HotelAvanzado\Hotel\obj\Debug\Hotel.dll
+C:\Users\informatica4\Downloads\HotelAvanzado\Hotel\obj\Debug\Hotel.pdb
+C:\Users\informatica1\Downloads\HotelCasiListo\Hotel\bin\Hotel.dll.config
+C:\Users\informatica1\Downloads\HotelCasiListo\Hotel\bin\Hotel.dll
+C:\Users\informatica1\Downloads\HotelCasiListo\Hotel\bin\Hotel.pdb
+C:\Users\informatica1\Downloads\HotelCasiListo\Hotel\bin\EntityFramework.dll
+C:\Users\informatica1\Downloads\HotelCasiListo\Hotel\bin\EntityFramework.SqlServer.dll
+C:\Users\informatica1\Downloads\HotelCasiListo\Hotel\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\informatica1\Downloads\HotelCasiListo\Hotel\bin\System.Web.Helpers.dll
+C:\Users\informatica1\Downloads\HotelCasiListo\Hotel\bin\System.Web.Razor.dll
+C:\Users\informatica1\Downloads\HotelCasiListo\Hotel\bin\System.Web.WebPages.Deployment.dll
+C:\Users\informatica1\Downloads\HotelCasiListo\Hotel\bin\System.Web.WebPages.dll
+C:\Users\informatica1\Downloads\HotelCasiListo\Hotel\bin\System.Web.WebPages.Razor.dll
+C:\Users\informatica1\Downloads\HotelCasiListo\Hotel\bin\EntityFramework.xml
+C:\Users\informatica1\Downloads\HotelCasiListo\Hotel\bin\EntityFramework.SqlServer.xml
+C:\Users\informatica1\Downloads\HotelCasiListo\Hotel\bin\System.Web.Helpers.xml
+C:\Users\informatica1\Downloads\HotelCasiListo\Hotel\bin\System.Web.Razor.xml
+C:\Users\informatica1\Downloads\HotelCasiListo\Hotel\bin\System.Web.WebPages.xml
+C:\Users\informatica1\Downloads\HotelCasiListo\Hotel\bin\System.Web.WebPages.Deployment.xml
+C:\Users\informatica1\Downloads\HotelCasiListo\Hotel\bin\System.Web.WebPages.Razor.xml
+C:\Users\informatica1\Downloads\HotelCasiListo\Hotel\bin\es\System.Web.Helpers.resources.dll
+C:\Users\informatica1\Downloads\HotelCasiListo\Hotel\bin\es\System.Web.Razor.resources.dll
+C:\Users\informatica1\Downloads\HotelCasiListo\Hotel\bin\es\System.Web.WebPages.resources.dll
+C:\Users\informatica1\Downloads\HotelCasiListo\Hotel\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\informatica1\Downloads\HotelCasiListo\Hotel\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\informatica1\Downloads\HotelCasiListo\Hotel\obj\Debug\Hotel.csprojResolveAssemblyReference.cache
+C:\Users\informatica1\Downloads\HotelCasiListo\Hotel\obj\Debug\Hotel.Migrations.hotel1.resources
+C:\Users\informatica1\Downloads\HotelCasiListo\Hotel\obj\Debug\Hotel.Migrations.habitacionOcupadas.resources
+C:\Users\informatica1\Downloads\HotelCasiListo\Hotel\obj\Debug\Hotel.csproj.GenerateResource.Cache
+C:\Users\informatica1\Downloads\HotelCasiListo\Hotel\obj\Debug\Hotel.dll
+C:\Users\informatica1\Downloads\HotelCasiListo\Hotel\obj\Debug\Hotel.pdb
+C:\Users\informatica1\Downloads\HotelApunto\Hotel\bin\Hotel.dll.config
+C:\Users\informatica1\Downloads\HotelApunto\Hotel\bin\Hotel.dll
+C:\Users\informatica1\Downloads\HotelApunto\Hotel\bin\Hotel.pdb
+C:\Users\informatica1\Downloads\HotelApunto\Hotel\bin\EntityFramework.dll
+C:\Users\informatica1\Downloads\HotelApunto\Hotel\bin\EntityFramework.SqlServer.dll
+C:\Users\informatica1\Downloads\HotelApunto\Hotel\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\informatica1\Downloads\HotelApunto\Hotel\bin\System.Web.Helpers.dll
+C:\Users\informatica1\Downloads\HotelApunto\Hotel\bin\System.Web.Razor.dll
+C:\Users\informatica1\Downloads\HotelApunto\Hotel\bin\System.Web.WebPages.Deployment.dll
+C:\Users\informatica1\Downloads\HotelApunto\Hotel\bin\System.Web.WebPages.dll
+C:\Users\informatica1\Downloads\HotelApunto\Hotel\bin\System.Web.WebPages.Razor.dll
+C:\Users\informatica1\Downloads\HotelApunto\Hotel\bin\EntityFramework.xml
+C:\Users\informatica1\Downloads\HotelApunto\Hotel\bin\EntityFramework.SqlServer.xml
+C:\Users\informatica1\Downloads\HotelApunto\Hotel\bin\System.Web.Helpers.xml
+C:\Users\informatica1\Downloads\HotelApunto\Hotel\bin\System.Web.Razor.xml
+C:\Users\informatica1\Downloads\HotelApunto\Hotel\bin\System.Web.WebPages.xml
+C:\Users\informatica1\Downloads\HotelApunto\Hotel\bin\System.Web.WebPages.Deployment.xml
+C:\Users\informatica1\Downloads\HotelApunto\Hotel\bin\System.Web.WebPages.Razor.xml
+C:\Users\informatica1\Downloads\HotelApunto\Hotel\bin\es\System.Web.Helpers.resources.dll
+C:\Users\informatica1\Downloads\HotelApunto\Hotel\bin\es\System.Web.Razor.resources.dll
+C:\Users\informatica1\Downloads\HotelApunto\Hotel\bin\es\System.Web.WebPages.resources.dll
+C:\Users\informatica1\Downloads\HotelApunto\Hotel\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\informatica1\Downloads\HotelApunto\Hotel\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\informatica1\Downloads\HotelApunto\Hotel\obj\Debug\Hotel.Migrations.hotel1.resources
+C:\Users\informatica1\Downloads\HotelApunto\Hotel\obj\Debug\Hotel.Migrations.habitacionOcupadas.resources
+C:\Users\informatica1\Downloads\HotelApunto\Hotel\obj\Debug\Hotel.csproj.GenerateResource.Cache
+C:\Users\informatica1\Downloads\HotelApunto\Hotel\obj\Debug\Hotel.dll
+C:\Users\informatica1\Downloads\HotelApunto\Hotel\obj\Debug\Hotel.pdb
+C:\Users\Carlos-sdf1\Documents\Visual Studio 2015\Projects\Hotel\Hotel\bin\Hotel.dll.config
+C:\Users\Carlos-sdf1\Documents\Visual Studio 2015\Projects\Hotel\Hotel\bin\Hotel.dll
+C:\Users\Carlos-sdf1\Documents\Visual Studio 2015\Projects\Hotel\Hotel\bin\Hotel.pdb
+C:\Users\Carlos-sdf1\Documents\Visual Studio 2015\Projects\Hotel\Hotel\bin\EntityFramework.dll
+C:\Users\Carlos-sdf1\Documents\Visual Studio 2015\Projects\Hotel\Hotel\bin\EntityFramework.SqlServer.dll
+C:\Users\Carlos-sdf1\Documents\Visual Studio 2015\Projects\Hotel\Hotel\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Carlos-sdf1\Documents\Visual Studio 2015\Projects\Hotel\Hotel\bin\System.Web.Helpers.dll
+C:\Users\Carlos-sdf1\Documents\Visual Studio 2015\Projects\Hotel\Hotel\bin\System.Web.Razor.dll
+C:\Users\Carlos-sdf1\Documents\Visual Studio 2015\Projects\Hotel\Hotel\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Carlos-sdf1\Documents\Visual Studio 2015\Projects\Hotel\Hotel\bin\System.Web.WebPages.dll
+C:\Users\Carlos-sdf1\Documents\Visual Studio 2015\Projects\Hotel\Hotel\bin\System.Web.WebPages.Razor.dll
+C:\Users\Carlos-sdf1\Documents\Visual Studio 2015\Projects\Hotel\Hotel\bin\EntityFramework.xml
+C:\Users\Carlos-sdf1\Documents\Visual Studio 2015\Projects\Hotel\Hotel\bin\EntityFramework.SqlServer.xml
+C:\Users\Carlos-sdf1\Documents\Visual Studio 2015\Projects\Hotel\Hotel\bin\System.Web.Helpers.xml
+C:\Users\Carlos-sdf1\Documents\Visual Studio 2015\Projects\Hotel\Hotel\bin\System.Web.Razor.xml
+C:\Users\Carlos-sdf1\Documents\Visual Studio 2015\Projects\Hotel\Hotel\bin\System.Web.WebPages.xml
+C:\Users\Carlos-sdf1\Documents\Visual Studio 2015\Projects\Hotel\Hotel\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Carlos-sdf1\Documents\Visual Studio 2015\Projects\Hotel\Hotel\bin\System.Web.WebPages.Razor.xml
+C:\Users\Carlos-sdf1\Documents\Visual Studio 2015\Projects\Hotel\Hotel\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Carlos-sdf1\Documents\Visual Studio 2015\Projects\Hotel\Hotel\bin\es\System.Web.Razor.resources.dll
+C:\Users\Carlos-sdf1\Documents\Visual Studio 2015\Projects\Hotel\Hotel\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Carlos-sdf1\Documents\Visual Studio 2015\Projects\Hotel\Hotel\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Carlos-sdf1\Documents\Visual Studio 2015\Projects\Hotel\Hotel\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Carlos-sdf1\Documents\Visual Studio 2015\Projects\Hotel\Hotel\obj\Debug\Hotel.Migrations.hotel1.resources
+C:\Users\Carlos-sdf1\Documents\Visual Studio 2015\Projects\Hotel\Hotel\obj\Debug\Hotel.Migrations.habitacionOcupadas.resources
+C:\Users\Carlos-sdf1\Documents\Visual Studio 2015\Projects\Hotel\Hotel\obj\Debug\Hotel.csproj.GenerateResource.Cache
+C:\Users\Carlos-sdf1\Documents\Visual Studio 2015\Projects\Hotel\Hotel\obj\Debug\Hotel.dll
+C:\Users\Carlos-sdf1\Documents\Visual Studio 2015\Projects\Hotel\Hotel\obj\Debug\Hotel.pdb
+C:\Users\Carlos-sdf1\Documents\Visual Studio 2015\Projects\Hotel\Hotel\obj\Debug\Hotel.csprojResolveAssemblyReference.cache
+C:\Users\Carlos-sdf1\Documents\Visual Studio 2015\Projects\Hotel\Hotel\obj\Debug\Hotel.Migrations.nuevosdatos.resources

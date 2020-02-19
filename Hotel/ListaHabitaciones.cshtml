@@ -1,0 +1,48 @@
+﻿@using Hotel.Models
+
+@{
+    Layout = "_Layout.cshtml";
+    Page.Title = "Lista habitaciones";
+    var context = new HotelDbContext();
+    var habitaciones = context.Habitaciones.ToList();
+}
+<div>
+    <table>
+        <tr>
+            <th>N°</th>
+            <th>Categoria</th>
+            <th>Precio</th>
+            <th>Capacidad</th>
+            <th>Ocupada</th>
+        </tr>
+        @{
+            foreach (var c in habitaciones)
+            {
+                <tr>
+                    <td>@c.Id</td>
+                    <td>@c.CategoriaHabitacion.Nombre</td>
+                    <td>@c.CategoriaHabitacion.Precio</td>
+                    <td>@c.CategoriaHabitacion.Capacidad</td>
+                    @{
+                        if (c.Ocupado == true)
+                        {
+                    <td>Ocupado</td>
+                    <td></td>
+                        }
+                        else
+                        {
+                    <td>Disponible</td>
+                    <td><a href="~/Agregar.cshtml?id=@c.CategoriaHabitacion.Id&num=@c.Id">Hospedar</a></td>
+                        }
+                    }
+                </tr>
+            }
+        }
+    </table>
+</div>
+<div>
+    <a href="~/Index.cshtml">Volver al inicio</a>
+</div>
+<div>
+    <a href="~/AgregarHabitacion.cshtml">Agregar una nueva habitacion</a>
+</div>

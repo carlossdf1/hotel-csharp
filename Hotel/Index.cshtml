@@ -1,0 +1,75 @@
+﻿@using Hotel.Models
+
+@{
+    Layout = "_Layout.cshtml";
+    Page.Title = "Habitaciones disponibles";
+    var context = new HotelDbContext();
+    var ocupadas = context.Huespedes.ToList();
+    var habitaciones = context.Habitaciones.ToList();
+    int libres = habitaciones.Count() - ocupadas.Count();
+
+    int simple=0;
+    int doble=0;
+    int matrimonial = 0;
+    
+    foreach (var c in habitaciones)
+    {
+        if (c.CategoriaHabitacion.Id == 1)
+        {
+            simple += 1;
+        }
+        if (c.CategoriaHabitacion.Id == 2)
+        {
+            doble += 1;
+        }
+        if (c.CategoriaHabitacion.Id == 3)
+        {
+            matrimonial += 1;
+        }
+    }
+
+    foreach (var c in ocupadas)
+    {
+        if (c.HabitacionHuesped.CategoriaHabitacion.Id == 1)
+        {
+            simple -= 1;
+        }
+        if (c.HabitacionHuesped.CategoriaHabitacion.Id == 2)
+        {
+            doble -= 1;
+        }
+        if (c.HabitacionHuesped.CategoriaHabitacion.Id == 3)
+        {
+            matrimonial -= 1;
+        }
+    } 
+}
+<div>
+    <table>
+        <tr>
+            <th>Total Disponibles</th>
+            <th>Simple</th>
+            <th>Doble</th>
+            <th>Matrimonial</th>
+        </tr>
+
+        <tr>
+            <td>@libres</td>
+            <td>@simple</td>
+            <td>@doble</td>
+            <td>@matrimonial</td>
+        </tr>
+        <tr>
+            <th></th>
+            <th><a href="~/Agregar.cshtml?id=1">Hospedar</a></th>
+            <th><a href="~/Agregar.cshtml?id=2">Hospedar</a></th>
+            <th><a href="~/Agregar.cshtml?id=3">Hospedar</a></th>
+        </tr>
+    </table>
+</div>
+<div>
+    <a href="~/Lista.cshtml">Hospedados actualmente</a>
+</div>
+<div>
+    <a href="~/ListaHabitaciones.cshtml">Lista habitaciones</a>
+</div>

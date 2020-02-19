@@ -1,0 +1,123 @@
+﻿@using Hotel.Models
+
+@{
+
+    Layout = "_Layout.cshtml";
+    Page.Title = "Hospedar";
+
+    string msj = string.Empty;
+    var context = new HotelDbContext();
+
+
+    // se ejecuta una vez que los datos son enviados en el metodo post
+    if (IsPost)
+    {
+        Huesped huesped = new Huesped();
+        huesped.Nombre = Request.Form["nombre"];
+        huesped.Apellido = Request.Form["apellido"];
+        huesped.Rut = Request.Form["rut"];
+        huesped.Correo = Request.Form["correo"];
+        string n = Request.Form["numero"];
+        Habitacion habitacion = context.Habitaciones.Find(int.Parse(Request.Form["numero"]));
+        huesped.HabitacionHuesped = habitacion;
+        habitacion.Ocupado = true;
+        context.Huespedes.Add(huesped);
+        context.SaveChanges();
+        Response.Redirect("Index.cshtml");
+    }
+
+    //se ejecuta siempre que carge la pagina
+    else
+    {
+        if (Request.QueryString["id"] != null)
+        {
+            try
+            {
+                var habitaciones = context.Habitaciones.ToList();
+
+                List<Habitacion> habitacionesVacias = new List<Habitacion>();
+                int id = int.Parse(Request.QueryString["id"]);
+
+                //genera lista de habitaciones vacias que correspondan a la gategoria enviada en el id
+                Categoria categorias = context.Categorias.Find(id);
+                foreach (var item in habitaciones)
+                {
+                    if (item.Ocupado == false)
+                    {
+                        if (item.CategoriaHabitacion.Id == id)
+                        {
+                            habitacionesVacias.Add(item);
+                        }
+                    }
+                }
+
+                <form method="post">
+                    <div>
+                        <label>Nombre:</label>
+                        <input type="text" name="nombre" />
+                    </div>
+                    <div>
+                        <label>Apellido:</label>
+                        <input type="text" name="apellido"/>
+                    </div>
+                    <div>
+                        <label>Rut:</label>
+                        <input type="text" name="rut" />
+                    </div>
+                    <div>
+                        <label>Correo:</label>
+                        <input type="text" name="correo" />
+                    </div>
+                    <div>
+                        <label>Categoria:</label>
+                        <label>@categorias.Nombre</label>
+                    </div>
+                    <div>
+                        <label>Precio:</label>
+                        <label>@categorias.Precio</label>
+                    </div>
+                    <div>
+                        
+                        @{
+                            if (Request.QueryString["num"] == null)
+                            {
+                                <label>N°:</label>
+                                <select name="numero">
+                                    @foreach (var c in habitacionesVacias)
+                                    {
+                                        <option value="@c.Id">@c.Id</option>
+                                    }
+                                </select>
+                            }
+                            else
+                            {
+                                <input type="hidden" name="numero" value="@Request.QueryString["num"]"/>
+                            }
+                        }
+
+                    </div>
+                    <div><input type="submit" value="Agregar" /></div>
+                </form>
+            }
+
+            catch (Exception e)
+            {
+
+                msj = e.Message;
+            }
+
+
+        }
+
+        else
+        {
+            msj = "No escojio categoria, vuelva al inicio";
+        }
+    }
+}
+
+<div>
+    <a href="~/Index.cshtml">Inicio</a>
+</div>
+
+<p>@msj</p>

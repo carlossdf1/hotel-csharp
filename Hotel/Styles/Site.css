@@ -1,0 +1,26 @@
+﻿body {
+    font-family:Calibri;
+}
+a {
+    color:darkcyan;
+}
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align:center;
+    border: 1px solid black;
+    padding: 3px;
+}
+.nav a {
+    margin: 3px;
+}
+
+div{
+    margin:5px;
+}
+
+p{
+    font-size:larger;
+}

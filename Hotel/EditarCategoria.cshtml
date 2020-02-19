@@ -1,0 +1,63 @@
+﻿
+@using Hotel.Models
+
+@{
+    Layout = "_Layout.cshtml";
+    Page.Title = "Cambiar categoria a la reservar";
+
+    string msj = string.Empty;
+    var context = new HotelDbContext();
+
+    int id = int.Parse(Request.QueryString["id"]);
+
+    if (IsPost)
+    {
+        if (Request.Form["categoriaValor"] != null)
+        {
+            int categoria = int.Parse(Request.Form["categoriaValor"]);
+            Response.Redirect("Editar.cshtml?id=" + id + "&cat=" + categoria);
+        }
+
+        if(Request.Form["categoriaValor"] ==null)
+        {
+            Huesped huesped = context.Huespedes.Find(id);
+            int categoria = huesped.HabitacionHuesped.CategoriaHabitacion.Id;
+            Response.Redirect("Editar.cshtml?id=" + id + "&cat=" + categoria);
+        }
+
+    }
+    else
+    {
+        if (Request.QueryString["id"] != null)
+        {
+            try
+            {
+                var categorias = context.Categorias.ToList();
+
+                <form method="post">
+                    <div>
+                        <label>Categoria:</label>
+                        <select name="categoriaValor">
+                            @foreach (var c in categorias)
+                            {
+                                <option value="@c.Id">@c.Nombre</option>
+                            }
+                        </select>
+                    </div>
+                    <div><input type="submit" value="Siguiente" /></div>
+                </form>
+            }
+            catch (Exception e)
+            {
+
+                msj = e.Message;
+            }
+        }
+    }
+}
+
+<div>
+    <a href="~/Index.cshtml">Volver al inicio</a>
+</div>
+
+<p>@msj</p>
